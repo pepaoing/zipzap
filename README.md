@@ -1,4 +1,5 @@
-# miprojecto
+# fishtool
+
 Un projecto con tools basicas sobre pishing con python,bash,etc como serian fisshing camfish etc
    # INSTALLATION 
 
