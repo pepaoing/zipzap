@@ -8,5 +8,5 @@ cd miprojecto
 
 python3 requiriments.py #select OS (Debian/Arch)
 
-python3 tool.py.py
+python3 pishtool.py
 ```
