@@ -2,7 +2,7 @@
 Un projecto con tools basicas sobre hacking con python,bash,etc
    # INSTALLATION 
 
-git clone https://github.com/tu.bob.fav/miprojecto
+git clone https://github.com/tubobfav/miprojecto.git
 
 cd miprojecto
 
