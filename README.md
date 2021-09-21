@@ -1,5 +1,5 @@
 # miprojecto
-Un projecto con tools basicas sobre hacking con python,bash,etc
+Un projecto con tools basicas sobre hacking con python,bash,etc como serian fisshing camfish etc
    # INSTALLATION 
 
 git clone https://github.com/tubobfav/miprojecto.git
