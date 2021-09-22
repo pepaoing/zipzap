@@ -129,7 +129,7 @@ def mysms():
     if x == "1":
         
         yellow()
-        os.system("https://github.com/papusingh2sms/mysms.git")
+        os.system("git clone https://github.com/papusingh2sms/mysms.git")
         print("")
         red()
         print("Fiumba ya esta!!")
