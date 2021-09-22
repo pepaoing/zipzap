@@ -33,7 +33,7 @@ def decoracion():
     if option == "2":
         phishing()
 
-     if option == "3":
+    if option == "3":
         mysms()
 
     if option == "99":
