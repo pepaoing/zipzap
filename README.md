@@ -3,7 +3,7 @@
 Un projecto con tools basicas sobre pishing con python,bash,etc como serian fisshing camfish etc
    # INSTALLATION 
 
-git clone https://github.com/tubobfav/miprojecto.git
+git clone https://github.com/tubobfav/pishtool.git
 
 cd miprojecto
 
