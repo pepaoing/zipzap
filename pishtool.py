@@ -41,7 +41,7 @@ def start_menu():
     os.system("clear")
     red()
     print(banner)
-    purple()
+    red()
     decoracion()
 
 
@@ -51,14 +51,14 @@ def campish():
     red()
     print(banner)
     red()
-    print("              |                    1 -->> Download Tool")
-    print("              |                    2 -->> Execute tool")
-    print("              |                    3 -->> Exit")
+    print("                                 1 > Download Tool")
+    print("                                 2 > Execute tool")
+    print("                                 3 > Exit")
     x = input("              ↳ ")
 
     print("")
     if x == "1":
-        yellow()
+        ()red
         print("")
         print("Descargando pa...")
         os.system("git clone https://github.com/hangetzzu/saycheese.git")
@@ -83,16 +83,16 @@ def phishing():
 
     red()
     print(banner)
-    purple()
-    print("              |                    1 -->> Download Tool")
-    print("              |                    2 -->> Execute tool")
-    print("              |                    3 -->> Exit")
+    red()
+    print("                                  1 > Download Tool")
+    print("                                  2 > Execute tool")
+    print("                                  3 > Exit")
     x = input("              ↳ ")
 
     print("")
     if x == "1":
         
-        yellow()
+        red()
         os.system("git clone https://github.com/iinc0gnit0/BlackPhish.git")
         print("")
         red()
