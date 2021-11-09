@@ -23,7 +23,7 @@ def decoracion():
     # hola
     print("                                  1 > Campish")
     print("                                  2 > Phishing")
-    print("              |                   99 > Exit")    
+    print("                                  99 > Exit")    
     option = input("              > ")
 
     if option == "1":
@@ -103,9 +103,10 @@ def phishing():
 
     if x == "2":
         print("")
-        os.system("mv BlackPishr/* .")
-        os.system("mv BlackPish/.sites .")
-        os.system("sudo bash zphisher.sh")
+        os.system("mv BlackPhish/* .")
+        os.system("cd BlackPish .")
+        os.system("sudo bash install.sh ")
+        os.system("sudo python3 blackphish.py")
     
     if x == "3":
         start_menu()
