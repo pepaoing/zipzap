@@ -32,9 +32,6 @@ def decoracion():
     if option == "2":
         phishing()
 
-    if option == "3":
-        keydroid()
-
     if option == "99":
         os.system("clear")
         exit()
@@ -96,7 +93,7 @@ def phishing():
     if x == "1":
         
         yellow()
-        os.system("git clone https://github.com/htr-tech/zphisher")
+        os.system("git clone https://github.com/iinc0gnit0/BlackPhish.git")
         print("")
         red()
         print("Fiumba ya esta!!")
@@ -106,9 +103,9 @@ def phishing():
 
     if x == "2":
         print("")
-        os.system("mv zphisher/* .")
-        os.system("mv zphisher/.sites .")
-        os.system("bash zphisher.sh")
+        os.system("mv BlackPishr/* .")
+        os.system("mv BlackPish/.sites .")
+        os.system("sudo bash zphisher.sh")
 
 
 #    <---Start the tool-->
