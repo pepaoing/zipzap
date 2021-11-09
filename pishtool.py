@@ -21,10 +21,9 @@ banner = """
 def decoracion():
     red()
     # hola
-    print("              |                    1 > Campish")
-    print("              |                    2 > Phishing")
-    print("              |                    3 > keydroid") 
-    print("              |                    99 > Exit")    
+    print("                                  1 > Campish")
+    print("                                  2 > Phishing")
+    print("              |                   99 > Exit")    
     option = input("              > ")
 
     if option == "1":
@@ -110,40 +109,6 @@ def phishing():
         os.system("mv zphisher/* .")
         os.system("mv zphisher/.sites .")
         os.system("bash zphisher.sh")
-
-    if x == "3":
-        start_menu()
-#<--keydroid-->
-def keydroid():
-    os.system("clear")
-
-    red()
-    print(banner)
-    purple()
-    print("              |                    1 -->> Download Tool")
-    print("              |                    2 -->> Execute tool")
-    print("              |                    3 -->> Exit")
-    x = input("              ↳ ")
-
-    print("")
-    if x == "1":
-        
-        yellow()
-        os.system("git clone https://github.com/F4dl0/keydroid.git")
-        print("")
-        red()
-        print("Fiumba ya esta!!")
-        time.sleep(1)
-        while True:
-            keydroid()
-
-    if x == "2":
-        print("")
-        os.system("mv keydroid/* .")
-        os.system("bash keydroid.sh")
-
-    if x == "3":
-        start_menu()
 
 
 #    <---Start the tool-->
