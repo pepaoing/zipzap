@@ -3,10 +3,10 @@
 Un projecto con tools basicas sobre pishing con python,bash,etc como serian fisshing camfish etc
    # INSTALLATION 
 
-git clone https://github.com/tubobfav/pishtool.git
+git clone https://github.com/tubobfav/zipzap.git
 
-cd pishtool
+cd zipzap
 
 
-python3 pishtool.py
+python3 zipzap.py
 ```
