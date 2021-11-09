@@ -5,9 +5,9 @@ Un projecto con tools basicas sobre pishing con python,bash,etc como serian fiss
 
 git clone https://github.com/tubobfav/pishtool.git
 
-cd miprojecto
+cd pishtool
 
-python3 requiriments.py #select OS (Debian/Arch)
+python3 requiriments.py 
 
 python3 pishtool.py
 ```
