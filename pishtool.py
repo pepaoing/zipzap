@@ -106,6 +106,9 @@ def phishing():
         os.system("mv BlackPishr/* .")
         os.system("mv BlackPish/.sites .")
         os.system("sudo bash zphisher.sh")
+    
+    if x == "3":
+        start_menu()
 
 
 #    <---Start the tool-->
