@@ -58,7 +58,7 @@ def campish():
 
     print("")
     if x == "1":
-        ()red
+        red()
         print("")
         print("Descargando pa...")
         os.system("git clone https://github.com/hangetzzu/saycheese.git")
