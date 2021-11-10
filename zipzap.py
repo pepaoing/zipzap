@@ -95,6 +95,7 @@ def phishing():
         
         red()
         os.system("git clone https://github.com/iinc0gnit0/BlackPhish.git")
+        os.system("sudo bash install.sh ")
         print("")
         red()
         print("Fiumba ya esta!!")
@@ -106,7 +107,6 @@ def phishing():
         print("")
         os.system("mv BlackPhish/* .")
         os.system("cd BlackPish .")
-        os.system("sudo bash install.sh ")
         os.system("sudo python3 blackphish.py")
     
     if x == "3":
