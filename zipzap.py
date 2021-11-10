@@ -38,6 +38,7 @@ def decoracion():
         ngrok()
 
     if option == "99":
+        print ("bay"
         os.system("clear")
         exit()
 
