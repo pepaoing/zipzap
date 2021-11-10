@@ -151,7 +151,7 @@ def ngrok():
         print("")
       
         os.system("mv BlackPhish/*")
-        os.system("cd BlackPhish")
+        os.system("mv BlackPhish/* .")
         os.system("sudo bash install.sh")
     
     if x == "3":
