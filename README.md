@@ -9,4 +9,6 @@ cd zipzap
 
 
 python3 zipzap.py
+
+antes de usar pisher porfavor elige la opcion de instalar ngrok 
 ```
