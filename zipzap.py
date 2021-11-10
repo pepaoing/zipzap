@@ -105,8 +105,6 @@ def phishing():
 
     if x == "2":
         print("")
-        os.system("mv BlackPhish/* .")
-        os.system("cd BlackPish .")
         os.system("sudo python3 blackphish.py")
     
     if x == "3":
