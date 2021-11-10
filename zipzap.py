@@ -145,7 +145,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            phishing()
+            ngrok()
 
     if x == "2":
         print("")
