@@ -38,7 +38,7 @@ def decoracion():
         ngrok()
 
     if option == "99":
-        print ("bay"
+        print ("bay")
         os.system("clear")
         exit()
 
@@ -141,6 +141,7 @@ def ngrok():
 
     if x == "2":
         print("")
+        xos.system("cd BlackPish")
         os.system("sudo bash install.sh")
     
     if x == "3":
