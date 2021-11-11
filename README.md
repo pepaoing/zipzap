@@ -3,7 +3,7 @@
 Un projecto con tools basicas sobre pishing con python,bash,etc como serian fishing camfish etc
    # INSTALLATION 
 
-git clone https://github.com/tubobfav/zipzap.git
+git clone https://github.com/pepaoing/zipzap.git
 
 cd zipzap
 
