@@ -24,7 +24,8 @@ def decoracion():
     # hola
     print("                                  1 > Campish")
     print("                                  2 > Phishing")
-    print("                                  3 > Ngrok")
+    print("                                  3 > Venom")
+    print("                                  4 > Ngrok")
     print("                                  99 > Exit")    
     option = input("              > ")
 
@@ -32,9 +33,12 @@ def decoracion():
         campish()
 
     if option == "2":
-        phishing()
-        
+       phishing()
+    
     if option == "3":
+        venom()
+        
+    if option == "4":
         ngrok()
 
     if option == "99":
@@ -152,7 +156,42 @@ def ngrok():
       
         os.system("mv BlackPhish/*")
         os.system("mv BlackPhish/* .")
-        os.system("sudo bash install.sh")
+        os.system("sudo python3 BlackPhish.py")
+    
+    if x == "3":
+        start_menu()
+      
+     
+#<-venom->
+def venom():
+    os.system("clear")
+
+    red()
+    print(banner)
+    red()
+    print("                                  1 > Download Tool ")
+    print("                                  2 > Execute Tool")
+    print("                                  3 > Exit")
+    x = input("              ↳ ")
+
+    print("")
+    if x == "1":
+        
+        red()
+        os.system("git clone https://github.com/r00t-3xp10it/venom.git")
+        print("")
+        red()
+        print("Fiumba ya esta!!")
+        time.sleep(1)
+        while True:
+            ngrok()
+
+    if x == "2":
+        print("")
+      
+        os.system("mv venom/*")
+        os.system("mv venom/* .")
+        os.system("sudo bash venom.sh")
     
     if x == "3":
         start_menu()
