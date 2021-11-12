@@ -178,7 +178,7 @@ def venom():
     if x == "1":
         
         red()
-        os.system("git clone https://github.com/pepaoing/venom-no-copy.git")
+        os.system("git clone https://github.com/pepaoing/venomnoauthor.git")
         print("")
         red()
         print("Fiumba ya esta!!")
