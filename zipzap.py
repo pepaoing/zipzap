@@ -184,13 +184,12 @@ def venom():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            ngrok()
+            venom()
 
     if x == "2":
         print("")
       
-        os.system("mv venom/*")
-        os.system("mv venom/* .")
+        os.system("cd venom")
         os.system("sudo bash venom.sh")
     
     if x == "3":
