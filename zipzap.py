@@ -24,7 +24,7 @@ def decoracion():
     # hola
     print("                                  1 > Campish")
     print("                                  2 > Phishing")
-    print("                                  3 > Keylogger"
+    print("                                  3 > Keylogger(no habilitado)"
     print("                                  4 > Ngrok")
     print("                                  99 > Exit")    
     option = input("              > ")
