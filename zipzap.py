@@ -24,7 +24,7 @@ def decoracion():
     # hola
     print("                                  1 > Campish")
     print("                                  2 > Phishing")
-    print("                                  3 > Venom")
+    print("                                  3 > Keylogger"
     print("                                  4 > Ngrok")
     print("                                  99 > Exit")    
     option = input("              > ")
@@ -36,7 +36,7 @@ def decoracion():
        phishing()
     
     if option == "3":
-        venom()
+        keylogger()
         
     if option == "4":
         ngrok()
@@ -121,7 +121,9 @@ def phishing():
 
     if x == "2":
         print("")
-        os.system("sudo python3 blackphish.py")
+        os.system("mv BlackPhish/*")
+        os.system("mv BlackPhish/* .")
+        os.system("sudo python3 BlackPhish.py")
     
     if x == "3":
         start_menu()
@@ -184,7 +186,7 @@ def venom():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            venom()
+            keylogger()
 
     if x == "2":
         print("")
