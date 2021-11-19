@@ -162,7 +162,7 @@ def ngrok():
     
     if x == "3":
         start_menu()
-          red()
+    red()
     print("                                  1 > Download Tool")
     print("                                  2 > Execute Tool")
     print("                                  3 > Exit")
