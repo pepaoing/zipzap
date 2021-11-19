@@ -22,15 +22,14 @@ banner = """
 def  decoracion():
     red()
     # hola
-    print("                                  1 > Campish")
+    print("                                  1 > Brutal")
     print("                                  2 > Phishing")
     print("                                  3 > Ngrok")
-    print("                                  4 > Brutal")
     print("                                  99 > Exit")    
     option = input("              > ")
 
     if option == "1":
-        campish()
+        brutal()
 
     if option == "2":
        phishing()
@@ -38,9 +37,6 @@ def  decoracion():
     if option == "3":
         ngrok()
     
-    if option == "4":
-       brutal()
-
     if option == "99":
         print ("bay")
         print ("bay")
@@ -78,18 +74,18 @@ def campish():
         red()
         print("")
         print("Descargando pa...")
-        os.system("git clone https://github.com/hangetzzu/saycheese.git")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
         red()
         print("Downloaded!!")
         time.sleep(2)
         while True:
-            campish()
+            brutal()
 
     if x == "2":
         print("")
-        os.system("mv saycheese/* .")
-        os.system("mv saycheese/.sites .")
-        os.system("bash saycheese.sh")
+        os.system("mv Brutal/* .")
+        os.system("mv Brutal/.sites .")
+        os.system("cd Brutal && sudo chmod +x Brutal.sh")
 
     if x == "3":
         start_menu()
@@ -150,7 +146,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            phishing()
+            ngrok()
 
     if x == "2":
         print("")
