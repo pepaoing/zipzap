@@ -76,7 +76,7 @@ def payload():
         os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
         os.system("mv Brutal/*")
         os.system("mv Brutal/* .")
-        os.system("sudo cd Brutal && bash Brutal.sh")
+        os.system("sudo bash Brutal.sh")
         red()
         print("Downloaded!!")
         time.sleep(2)
