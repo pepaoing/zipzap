@@ -19,7 +19,7 @@ banner = """
                                                                                                                         
 """
 
-def decoracion():
+def  decoracion():
     red()
     # hola
     print("                                  1 > Campish")
@@ -39,7 +39,7 @@ def decoracion():
         ngrok()
     
     if option == "4":
-        brutaltool()
+       brutal()
 
     if option == "99":
         print ("bay")
@@ -60,7 +60,6 @@ def start_menu():
     red()
     print(banner)
     red()
-    decoracion()
 
 
 #<--campish-->
