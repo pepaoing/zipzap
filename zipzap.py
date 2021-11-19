@@ -25,6 +25,7 @@ def decoracion():
     print("                                  1 > Campish")
     print("                                  2 > Phishing")
     print("                                  3 > Ngrok")
+    print("                                  4 > Brutal")
     print("                                  99 > Exit")    
     option = input("              > ")
 
@@ -36,6 +37,9 @@ def decoracion():
         
     if option == "3":
         ngrok()
+    
+    if option == "4":
+        brutal()
 
     if option == "99":
         print ("bay")
@@ -98,8 +102,8 @@ def phishing():
     red()
     print(banner)
     red()
-    print("                                  1 > Download Tool")
-    print("                                  2 > Execute tool")
+    print("                                  1 > Download 1")
+    print("                                  2 > Download 2")
     print("                                  3 > Exit")
     x = input("              ↳ ")
 
@@ -147,7 +151,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            ngrok()
+            brutal()
 
     if x == "2":
         print("")
@@ -155,6 +159,33 @@ def ngrok():
         os.system("mv BlackPhish/*")
         os.system("mv BlackPhish/* .")
         os.system("sudo python3 BlackPhish.py")
+    
+    if x == "3":
+        start_menu()
+          red()
+    print("                                  1 > Download Tool")
+    print("                                  2 > Execute Tool")
+    print("                                  3 > Exit")
+    x = input("              ↳ ")
+
+    print("")
+    if x == "1":
+        
+        red()
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
+        print("")
+        red()
+        print("Fiumba ya esta!!")
+        time.sleep(1)
+        while True:
+            brutal()
+
+    if x == "2":
+        print("")
+      
+        os.system("mv Brutal/*")
+        os.system("mv Brutal/* .")
+        os.system("cd Brutal && sudo chmod +x Brutal.sh")
     
     if x == "3":
         start_menu()
