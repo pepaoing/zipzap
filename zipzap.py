@@ -39,7 +39,7 @@ def decoracion():
         ngrok()
     
     if option == "4":
-        brutal()
+        brutaltool()
 
     if option == "99":
         print ("bay")
@@ -151,7 +151,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            brutal()
+            brutaltool()
 
     if x == "2":
         print("")
@@ -178,7 +178,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            brutal()
+            brutaltool()
 
     if x == "2":
         print("")
@@ -192,4 +192,4 @@ def ngrok():
 
 
 #    <---Start the tool-->
-start_menu()
+  start_menu()
