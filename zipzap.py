@@ -190,6 +190,3 @@ def ngrok():
     if x == "3":
         start_menu()
 
-
-#    <---Start the tool-->
-  start_menu()
