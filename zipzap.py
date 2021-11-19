@@ -150,7 +150,7 @@ def ngrok():
         print("Fiumba ya esta!!")
         time.sleep(1)
         while True:
-            brutaltool()
+            phishing()
 
     if x == "2":
         print("")
@@ -158,33 +158,6 @@ def ngrok():
         os.system("mv BlackPhish/*")
         os.system("mv BlackPhish/* .")
         os.system("sudo python3 BlackPhish.py")
-    
-    if x == "3":
-        start_menu()
-    red()
-    print("                                  1 > Download Tool")
-    print("                                  2 > Execute Tool")
-    print("                                  3 > Exit")
-    x = input("              ↳ ")
-
-    print("")
-    if x == "1":
-        
-        red()
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
-        print("")
-        red()
-        print("Fiumba ya esta!!")
-        time.sleep(1)
-        while True:
-            brutaltool()
-
-    if x == "2":
-        print("")
-      
-        os.system("mv Brutal/*")
-        os.system("mv Brutal/* .")
-        os.system("cd Brutal && sudo chmod +x Brutal.sh")
     
     if x == "3":
         start_menu()
