@@ -56,7 +56,7 @@ def start_menu():
     red()
     print(banner)
     red()
-
+    decoracion()
 
 #<--campish-->
 def campish():
