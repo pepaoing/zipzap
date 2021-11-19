@@ -29,7 +29,7 @@ def  decoracion():
     option = input("              > ")
 
     if option == "1":
-        brutal()
+        payload()
 
     if option == "2":
        phishing()
@@ -59,7 +59,7 @@ def start_menu():
     decoracion()
 
 #<--campish-->
-def campish():
+def payload():
     os.system("clear")
     red()
     print(banner)
@@ -79,7 +79,7 @@ def campish():
         print("Downloaded!!")
         time.sleep(2)
         while True:
-            brutal()
+            payload()
 
     if x == "2":
         print("")
