@@ -64,7 +64,8 @@ def payload():
     red()
     print(banner)
     red()
-    print("                                 1 > Download And Execute")
+    print("                                 1 > Download")
+    print("                                 2 > Execute")
     print("                                 3 > Exit")
     x = input("              ↳ ")
 
@@ -74,14 +75,16 @@ def payload():
         print("")
         print("Descargando pa...")
         os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash Brutal.sh ")
-        os.system("mv Brutal/*")
-        os.system("mv Brutal/* .")
-        os.system("sudo bash Brutal.sh")
         red()
         print("Downloaded!!")
         time.sleep(2)
         while True:
             payload()
+          
+    if x == "2":
+        print("")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash Brutal.sh ")
+        red()
 
     if x == "3":
         start_menu()
