@@ -74,7 +74,7 @@ def payload():
         red()
         print("")
         print("Descargando pa...")
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash Brutal.sh ")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
         red()
         print("Downloaded!!")
         time.sleep(2)
@@ -83,6 +83,7 @@ def payload():
           
     if x == "2":
         print("")
+        os.system("sudo rm -r Brutal")
         os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash Brutal.sh ")
         red()
 
