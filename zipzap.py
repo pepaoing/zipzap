@@ -104,7 +104,8 @@ def phishing():
 
     if x == "1":
         print("")
-        os.system("sudo rm -r BlackPish && git clone https://github.com/iinc0gnit0/BlackPhish.git && cd BlackPhish && sudo python3 BlackPhish.py")
+        os.system("sudo rm -r BlackPhish ")
+        os.system("git clone https://github.com/iinc0gnit0/BlackPhish.git && cd BlackPhish && sudo python3 BlackPhish.py")
     if x == "2":
         start_menu()
       
