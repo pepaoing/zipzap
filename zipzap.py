@@ -84,7 +84,7 @@ def payload():
     if x == "2":
         print("")
         os.system("sudo rm -r Brutal")
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash Brutal.sh ")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && update.sh && cd Brutal && sudo bash Brutal.sh ")
         red()
 
     if x == "3":
