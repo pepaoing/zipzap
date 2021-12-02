@@ -58,7 +58,7 @@ def start_menu():
     red()
     decoracion()
 
-#<--campish-->
+#<--brutal-->
 def payload():
     os.system("clear")
     red()
@@ -97,30 +97,15 @@ def phishing():
     red()
     print(banner)
     red()
-    print("                                  1 > Download 1")
-    print("                                  2 > Download 2")
+    print("                                  1 > Download And Execute")
     print("                                  3 > Exit")
     x = input("              ↳ ")
 
-    print("")
-    if x == "1":
-        
-        red()
-        os.system("git clone https://github.com/iinc0gnit0/BlackPhish.git")
-        print("")
-        red()
-        print("Fiumba ya esta!!")
-        time.sleep(1)
-        while True:
-            phishing()
 
-    if x == "2":
+    if x == "1":
         print("")
-        os.system("mv BlackPhish/*")
-        os.system("mv BlackPhish/* .")
-        os.system("sudo python3 BlackPhish.py")
-    
-    if x == "3":
+        os.system("sudo rm -r BlackPish && git clone https://github.com/iinc0gnit0/BlackPhish.git && cd BlackPhish && sudo python3 BlackPhish.py")
+    if x == "2":
         start_menu()
       
       
