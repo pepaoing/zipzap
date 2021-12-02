@@ -84,7 +84,7 @@ def payload():
     if x == "2":
         print("")
         os.system("sudo rm -r Brutal")
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && update.sh && cd Brutal && sudo bash Brutal.sh ")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && bash update.sh && cd Brutal && sudo bash Brutal.sh ")
         red()
 
     if x == "3":
@@ -105,7 +105,7 @@ def phishing():
     if x == "1":
         print("")
         os.system("sudo rm -r BlackPhish ")
-        os.system("sudo git clone https://github.com/iinc0gnit0/BlackPhish.git && bash update.sh cd BlackPhish && sudo python3 BlackPhish.py")
+        os.system("sudo git clone https://github.com/iinc0gnit0/BlackPhish.git && cd BlackPhish && bash update.sh && sudo python3 BlackPhish.py")
     if x == "2":
         start_menu()
       
