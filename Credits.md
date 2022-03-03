@@ -1,1 +1,1 @@
-La tool fue creada por mi pero las tools de dentro fueron estas:https://github.com/hangetzzu/saycheese, https://github.com/htr-tech/zphisher gracias por la ayuda y a https://github.com/yorkox0/yorkox-tool por enseñarme desde un inicio 
+La tool fue creada por mi pero las tools de dentro fueron estas:https://github.com/hangetzzu/saycheese, https://github.com/htr-tech/zphisher gracias por la ayuda 
