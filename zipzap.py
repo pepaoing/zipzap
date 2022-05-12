@@ -7,8 +7,6 @@ import os, time
 red()
 
 banner = """
-
-
  ________    __       _______       ________        __         _______   
 ("      "\  |" \     |   __ "\     ("      "\      /""\       |   __ "\  
  \___/   :) ||  |    (. |__) :)     \___/   :)    /    \      (. |__) :) 
@@ -64,27 +62,15 @@ def payload():
     red()
     print(banner)
     red()
-    print("                                 1 > Download")
-    print("                                 2 > Execute")
+    print("                                 1 > Download And Execute")
     print("                                 3 > Exit")
     x = input("              ↳ ")
 
-    print("")
+    print("")          
     if x == "1":
-        red()
-        print("")
-        print("Descargando pa...")
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git")
-        red()
-        print("Downloaded!!")
-        time.sleep(2)
-        while True:
-            payload()
-          
-    if x == "2":
         print("")
         os.system("sudo rm -r Brutal")
-        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && bash update.sh && cd Brutal && sudo bash Brutal.sh ")
+        os.system("sudo git clone https://github.com/Screetsec/Brutal.git && cd Brutal && sudo bash update.sh && sudo bash Brutal.sh")
         red()
 
     if x == "3":
