@@ -1,14 +1,10 @@
-# zipzap
+<h3 align="center">Simple Hacking Tool</h3>
 
-Un projecto con tools basicas sobre pishing con python,bash,etc como serian fishing camfish etc (errores no acabado doy permiso para seguir con el proyecto)
-   # INSTALLATION 
+- ⚒️ How to run? **pip install -r requeriments.txt and python3 main.py**
 
-git clone https://github.com/pepaoing/zipzap.git
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-cd zipzap
-
-
-python3 zipzap.py
-
-antes de usar pisher porfavor elige la opcion de instalar ngrok 
-```
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
