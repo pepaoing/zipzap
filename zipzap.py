@@ -36,15 +36,7 @@ def  decoracion():
         ngrok()
     
     if option == "99":
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
-        print ("bay")
+        print (":C")
         os.system("clear")
         exit()
 
